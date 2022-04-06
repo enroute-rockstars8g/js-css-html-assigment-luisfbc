@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    /* background: linear-gradient(#e66465, #9198e5); */
+    background-image: linear-gradient(grey, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+#divHeader{
+    text-align: center;
+    color: white;
+}
+
+#parentContainer{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    /*border-style: double;
+    border-width: 5px;
+    border-color: cornflowerblue; */
+
+
+}
+
+#myInfo{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#myPhotos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+#fiboContainer, #factorialContainer{
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+    /* border-style: double;
+    border-width: 5px; */
+    margin: 0 auto;
+    color: white
+}
+
+#containerProblem{
+    padding: 5px;
+}
+
+p {
+    color: white;
+}
+
+#textContainer {
+    width: 80%;
+    margin: 12px auto;
+    color: white;
+    border-color: #717744; 
+    background-color:#BCBD8B;
+    word-wrap: break-word;
+    border-style:  solid;
+    border-radius: 12px;
+    
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+}
